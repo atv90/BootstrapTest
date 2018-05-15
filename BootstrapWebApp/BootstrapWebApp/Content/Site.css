@@ -3,6 +3,11 @@
     padding-bottom: 20px;
 }
 
+/*!important ajaa komennon bootstrapin määrityksen yli, jos bootstrapin määrityksessä ei ole !important komentoa*/
+.text-primary {
+    color: #862b5c !important;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
